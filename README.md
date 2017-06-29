@@ -1,3 +1,3 @@
 # Upstreamr
 
-[Demo](https://mbelgrader.github.io/GetAway/)
+[Demo](https://mbelgrader.github.io/UpstreamrDemo/)
