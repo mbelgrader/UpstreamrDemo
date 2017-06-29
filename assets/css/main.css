@@ -56,6 +56,11 @@
 		box-sizing: border-box;
 	}
 
+	.text {
+		color: #1CB9D0;
+		font-weight: bold;
+	}
+
 .image-details {
 	height: 500px;
 	display: block;
@@ -64,7 +69,7 @@
 
 .flex {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
@@ -2029,7 +2034,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: transparent;
+		/*background-color: transparent;*/
 		color: #828282 !important;
 		box-shadow: inset 0 0 0 2px #e6e6e6;
 	}
@@ -2400,7 +2405,7 @@
 			box-shadow: none;
 			border-radius: 0;
 			margin: 0 0 3em 0;
-			width: 80em;
+			width: 15em;
 		}
 
 			.image.phone img {
@@ -3002,7 +3007,7 @@
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				background-color: transparent;
+				/*background-color: transparent;*/
 				color: #ffffff !important;
 				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 			}
@@ -3197,7 +3202,7 @@
 			.wrapper.style2 input[type="button"],
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
-				background-color: transparent;
+				/*background-color: transparent;*/
 				color: #828282 !important;
 				box-shadow: inset 0 0 0 2px #e6e6e6;
 			}
@@ -3411,7 +3416,7 @@
 			.wrapper.style3 input[type="button"],
 			.wrapper.style3 button,
 			.wrapper.style3 .button {
-				background-color: transparent;
+				/*background-color: transparent;*/
 				color: #828282 !important;
 				box-shadow: inset 0 0 0 2px #d6d6d6;
 			}
@@ -3677,7 +3682,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/plane.jpg")
+		background-image: url("images/sf2.jpg")
 		background-repeat: no-repeat;
 		background-size: cover;
 		width: 100%;
@@ -3689,7 +3694,8 @@
 		#header input[type="button"],
 		#header button,
 		#header .button {
-			background-color: transparent;
+			/*background-color: transparent;*/
+			background-color: #1CB9D0;
 			color: #ffffff !important;
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 		}
@@ -3850,7 +3856,8 @@
 		#header a {
 			color: inherit;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
-			color: #ffffff;
+			/*color: #ffffff;*/
+			color: #1CB9D0;
 		}
 
 		#header strong, #header b {
@@ -3901,6 +3908,9 @@
 			opacity: 1;
 			text-align: right;
 			margin: -3.5em 4em 0 0;
+			flex-direction: column;
+			background-color: white;
+			padding: 40px;
 		}
 
 			#header .content > :last-child {
@@ -3934,7 +3944,7 @@
 		@media screen and (max-width: 5080px) {
 
 			#header {
-				background-image: url("images/plane.jpg")
+				background-image: url("images/sf2.jpg")
 			}
 
 		}
@@ -3978,7 +3988,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				background-image: url("images/plane.jpg");
+				background-image: url("images/sf2.jpg");
 			}
 
 				#header h1 {
