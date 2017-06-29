@@ -1,2 +1,5 @@
-# UpstreamrDemo
-Demo Page for the Upstreamr app
+# Upstreamr
+
+Find a seat on BART
+
+[Demo](https://mbelgrader.github.io/UpstreamrDemo/)
