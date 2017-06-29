@@ -1,2 +1,3 @@
-# UpstreamrDemo
-Demo Page for the Upstreamr app
+# Upstreamr
+
+[Demo](https://mbelgrader.github.io/GetAway/)
